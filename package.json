@@ -1,0 +1,19 @@
+{
+  "name": "yufood",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yurisokolovicz/yuFOOD.git"
+  },
+  "author": "Yuri Sokolovicz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yurisokolovicz/yuFOOD/issues"
+  },
+  "homepage": "https://github.com/yurisokolovicz/yuFOOD#readme"
+}
