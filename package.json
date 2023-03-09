@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/yurisokolovicz/yuFOOD/issues"
   },
-  "homepage": "https://github.com/yurisokolovicz/yuFOOD#readme"
+  "homepage": "https://github.com/yurisokolovicz/yuFOOD#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
 }
