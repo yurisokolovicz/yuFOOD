@@ -1,4 +1,4 @@
-const recipeContainer = document.querySelector('.recipe');
+const recipeContainer = document.querySelector(".recipe");
 
 const timeout = function (s) {
   return new Promise(function (_, reject) {
@@ -7,7 +7,5 @@ const timeout = function (s) {
     }, s * 1000);
   });
 };
-
-// https://forkify-api.herokuapp.com/v2
 
 ///////////////////////////////////////
