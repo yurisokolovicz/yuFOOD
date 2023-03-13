@@ -24,6 +24,9 @@ const controlRecipes = async function () {
         if (!id) return; // load the page without id
         recipeView.renderSpiner(recipeContainer);
 
+        // 0) Update results view to mark selected search results
+        resultsView.update(model.getSearchResultsPage());
+
         // 1) Loading recipe
         // We will get acess to state.recipe from model.js
         await model.loadRecipe(id);
@@ -70,7 +73,9 @@ const controlServings = function (newServings) {
     model.updateServings(newServings);
 
     // Update the recipe view
-    recipeView.render(model.state.recipe);
+    // recipeView.render(model.state.recipe);
+    // update will only update text and atributes in the DOM without re-render the entire view
+    recipeView.update(model.state.recipe);
 };
 
 const init = function () {
