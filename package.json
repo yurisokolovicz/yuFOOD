@@ -1,25 +1,26 @@
 {
-  "name": "yufood",
-  "version": "1.0.0",
-  "description": "Recipe application",
-  "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yurisokolovicz/yuFOOD.git"
-  },
-  "author": "Yuri Sokolovicz",
-  "license": "ISC",
-  "devDependencies": {
-    "@parcel/transformer-sass": "^2.8.3",
-    "parcel": "^2.8.3",
-    "process": "^0.11.10"
-  },
-  "dependencies": {
-    "core-js": "^3.29.0",
-    "fractional": "^1.0.0",
-    "regenerator-runtime": "^0.13.11"
-  }
+    "name": "yufood",
+    "version": "1.0.0",
+    "description": "Recipe application",
+    "default": "index.html",
+    "scripts": {
+        "start": "parcel index.html",
+        "build": "parcel build index.html --dist-dir ./dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yurisokolovicz/yuFOOD.git"
+    },
+    "author": "Yuri Sokolovicz",
+    "license": "ISC",
+    "devDependencies": {
+        "@parcel/transformer-sass": "^2.8.3",
+        "parcel": "^2.8.3",
+        "process": "^0.11.10"
+    },
+    "dependencies": {
+        "core-js": "^3.29.0",
+        "fractional": "^1.0.0",
+        "regenerator-runtime": "^0.13.11"
+    }
 }
