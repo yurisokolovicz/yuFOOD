@@ -2,7 +2,7 @@ import View from './View.js';
 
 import icons from 'url:../../img/icons.svg'; // Parcel 2
 // console.log(icons);
-import { Fraction } from 'fractional';
+// import { Fraction } from 'fractional';
 // console.log(Fraction);
 
 // It is a child class of View.js

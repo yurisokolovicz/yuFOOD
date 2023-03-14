@@ -9,7 +9,7 @@ npm-debug.log
 
 # Build files
 build/
-# dist/
+dist/
 
 # Dependencies
 package-lock.json
