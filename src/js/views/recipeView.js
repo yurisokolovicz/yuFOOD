@@ -2,7 +2,7 @@ import View from './View.js';
 
 import icons from 'url:../../img/icons.svg'; // Parcel 2
 // console.log(icons);
-// import { Fraction } from 'fractional';
+import fracty from 'fracty';
 // console.log(Fraction);
 
 // It is a child class of View.js
@@ -112,7 +112,7 @@ class RecipeView extends View {
                    <svg class="recipe__icon">
                     <use href="src/img/icons.svg#icon-check"></use>
                    </svg>
-                  <div class="recipe__quantity">${ing.quantity ? new Fraction(ing.quantity).toString() : ''}</div>
+                  <div class="recipe__quantity">${ing.quantity ? fracty(ing.quantity) : ''}</div>
                   <div class="recipe__description">
                     <span class="recipe__unit">${ing.unit}</span>
                     ${ing.description}
