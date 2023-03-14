@@ -3,6 +3,14 @@ import icons from 'url:../../img/icons.svg'; // Parcel 2
 export default class View {
     _data;
 
+    /**
+     * Render the received objects to the DOM
+     * @param {Object | Object[]} data The data to be rendered (e.g. recipe)
+     * @returns
+     * @this {Object} View instance
+     * @author Yuri Sokolovicz
+     * @todo Finish the implementation
+     */
     render(data) {
         // If there is no data or if there is data and it is in an array and it is empty show the error
         if (!data || (Array.isArray(data) && data.length === 0)) return this.renderError();
