@@ -8,7 +8,7 @@ class ResultsView extends View {
     _message = '';
 
     _generateMarkup() {
-        console.log(this._data); // should be the search.results of the render results in the controller
+        // console.log(this._data); // should be the search.results of the render results in the controller
         return this._data.map(this._generateMarkupPreview).join('');
     }
 
